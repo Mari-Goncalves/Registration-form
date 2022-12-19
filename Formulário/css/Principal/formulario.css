@@ -1,0 +1,55 @@
+
+.principal-container-form{
+    box-shadow: 0 4px 8px #999; 
+    /*
+    1º valor: posição horizontal da sombra.
+    2º valor: posição vertical da sombra. 
+    3º valor: efeito de desfoque da sombra.
+    4º valor: cor da sombra.
+    */
+    margin: 20px auto; /*cantralizar o container*/
+    padding: 15px;
+    width: 50%;
+
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+
+}
+.itemLab{
+    padding-bottom: 5px;
+
+}
+
+.itemInp{
+    padding: 10px;
+    margin-bottom: 1em; /*em -> unidadde de medida que se adapta de acordo com o tamanho da fonte usada na página*/
+    font: .8em sans-serif;
+    border: solid 1px #999;
+    /*
+    1º valor: textura.
+    2º valor: espessura.
+    3º valor: cor. 
+    */
+}
+
+.botaoEnviar{
+    background: #a5c8ca;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;
+    margin-left: 35%;
+    padding: 10px;
+    width: 30%;
+
+}
+
+.botaoEnviar:hover{
+    background: #ff8482 ;
+    transition: 1s;
+    
+}
+
